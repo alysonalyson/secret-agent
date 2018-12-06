@@ -2,13 +2,22 @@ html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
   background-color: black;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  width: 960px;
   display: flex;
   justify-content: center;
 }
 
 .header {
   background-color: black;
-  width: 960px;
   margin: 0 auto;
   color: white;
   display: inline-flex;
@@ -38,9 +47,24 @@ html {
 
 .box h4 {
   font-size: 1rem;
-  padding-bottom: 0.25rem;
 }
 
 .box h2 {
   font-size: 2rem;
+  margin-top: .25rem;
+}
+
+.nav {
+  background-color: Firebrick;
+  color: white;
+  padding: 0.75rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 100%;
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: space-between;
 }

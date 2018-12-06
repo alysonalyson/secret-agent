@@ -1,7 +1,6 @@
 html {
   font-family: Helvetica, sans-serif;
   font-size: 18px;
-  background-color: black;
 }
 
 .container {
@@ -13,11 +12,13 @@ html {
 .container2 {
   width: 960px;
   display: flex;
-  justify-content: center;
+  text-align: left;
+  align-content: center;
 }
 
 .header {
   background-color: black;
+  width: 100%;
   margin: 0 auto;
   color: white;
   display: inline-flex;
@@ -67,4 +68,32 @@ nav {
   list-style-type: none;
   display: inline-flex;
   justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: white;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+
+.tile, .rectangle {
+  border: 4px solid black;
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+#copy {
+  text-align: left;
 }

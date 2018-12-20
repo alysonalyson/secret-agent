@@ -70,6 +70,10 @@ nav {
   justify-content: space-between;
 }
 
+#menu {
+  display: none;
+}
+
 .main {
   display: flex;
   justify-content: center;
